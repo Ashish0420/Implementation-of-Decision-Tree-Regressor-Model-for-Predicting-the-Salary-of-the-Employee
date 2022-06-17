@@ -9,12 +9,17 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 
 ## Algorithm
 1.Import pandas modules to start with program.
+
 2.Read csv file and store it in a variable.
+
 4.From sklearn import label encoder to fit attribute.
+
 5.Import train_test_split to get train and test datasets.
+
 6.Using DecisionTreeRegressor predict the value.  
 
 ## Program:
+```
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 Developed by: ashish G
 RegisterNumber:  21222124007
@@ -43,7 +48,7 @@ mse
 r2=metrics.r2_score(y_test,y_pred)
 r2
 dt.predict([[5,6]])
-
+```
 ## Output:
 
 ### DATA HEAD AND INFO
